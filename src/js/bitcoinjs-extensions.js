@@ -141,6 +141,17 @@ bitcoinjs.bitcoin.networks.slimcointn = {
   wif: 0x57
 };
 
+bitcoinjs.bitcoin.networks.tao = {
+  messagePrefix: '\x17Tao Signed Message:\n',
+  bip32: {
+    public: 0x0488B21E,
+    private: 0x0488ADE4
+  },
+  pubKeyHash: 0x42,
+  scriptHash: 0x03,
+  wif: 0x4c
+};
+
 bitcoinjs.bitcoin.networks.dogecoin = {
   messagePrefix: '\x19Dogecoin Signed Message:\n',
   bip32: {
