@@ -2490,6 +2490,13 @@
             },
         },
         {
+            name: "TAO - Tao",
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.tao;
+                setHdCoin(291);
+            },
+        },
+        {
             name: "USC - Ultimatesecurecash",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.ultimatesecurecash;
